@@ -1,0 +1,63 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: white;
+    padding: 1px 30px;
+    
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-links a.active {
+    color: red;
+    border-bottom: 2px solid red;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .compare-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .user-profile a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .profile-icon {
+    font-size: 1.2rem;
+  }
+  

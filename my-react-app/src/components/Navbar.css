@@ -1,0 +1,58 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 15px 50px;
+  }
+  
+ 
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  
+  .nav-links .active {
+    color: red;
+    font-weight: bold;
+  }
+  
+  
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+ 
+  .compare-btn {
+    background: red;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+ 
+  .user-icon {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
